@@ -17,7 +17,7 @@ void main() {
         height: 48.0,
         child: const Text(
           'Hello, world!',
-          textAlign: TextAlign.left,
+          textDirection: TextDirection.ltr,
         ),
       ),
     ),
