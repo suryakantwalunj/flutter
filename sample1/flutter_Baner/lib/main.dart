@@ -17,11 +17,11 @@ class MyButton extends StatelessWidget {
         margin: const EdgeInsets.symmetric(horizontal: 8),
         decoration: BoxDecoration(
           border: Border.all(
-            color: Colors.red,
+            color: Colors.redAccent,
             width: 5.0,
           ),
           borderRadius: BorderRadius.circular(12),
-          color: Colors.amber[600],
+          color: Colors.yellowAccent,
         ),
         child: const Center(
           child: Text('I am surya...!'),
